@@ -9,7 +9,7 @@ searchInput.addEventListener('keyup' ,event =>{
   let pokemonContainer = document.getElementById('pokemon-container')
   let container = pokemonContainer.children[0];
   container.innerHTML = '';
-  if( event.target.value == "" )
+  if( event.target.value == "") 
     return
   pokemonArray.forEach(pokemon=>{
     if( pokemon.name.startsWith(event.target.value)){
